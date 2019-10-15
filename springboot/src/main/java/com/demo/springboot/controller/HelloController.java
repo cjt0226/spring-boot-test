@@ -1,7 +1,6 @@
 package com.demo.springboot.controller;
 
 import com.demo.springboot.service.HelloService;
-import com.sun.tools.corba.se.idl.StringGen;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
