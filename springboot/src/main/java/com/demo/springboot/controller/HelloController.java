@@ -14,9 +14,12 @@ public class HelloController {
     public String hello(String name) {
         if (name.equals("Frank")) {
             return "hello spring boot!! your name is " + name;
+        } else if (name.equals("Chen")) {
+            return "hello! I'm " + name;
         } else {
             return "hello " + name;
         }
+
     }
 
     @ResponseBody
